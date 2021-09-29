@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="yoga.css">
+    <meta name="description" content="The contact page is for those who need to contact the studio for any given reason.">
+    <title>Path of Light Yoga Studio :: Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<header class="content">
+    <h1><a href="index.html">Path of Light Yoga Studio</a></h1>
+</header>
+
+<div id="wrapper">
+    <main>
+
+        <h2>Contact Path of Light Yoga Studio</h2>
+        <p>Required fields are marked with an asterisk *</p>
+
+    </main>
+    <form action="http://webdevbasics.net/scripts/yoga.php" method="post">
+        <label for="myName">* Name:</label>
+        <input id= "myName" type="text" name="myName" required="required">
+
+        <label for="myEmail">* E-mail:</label>
+        <input id="myEmail" type="email" name="myEmail" required="required">
+
+        <label>How did you hear about us?</label>
+
+        <input type="text" name="options" list="options">
+        <datalist id="options">
+        <option>Google</option>
+        <option>Bing</option>
+        <option>Facebook</option>
+        <option>Friend</option>
+        <option>Radio Ad</option>
+        </datalist>
+
+        <label for="myComments">* Comments:</label>
+        <textarea rows="2" cols="20" name="myComments" required="required"></textarea>
+        <input id="myComments" type="submit" value="Send Now">
+    </form>
+    <footer>
+        Copyright &copy; 2020 Path of Light Yoga Studio
+        <br><a href="mailto:jlovelien3@my.wctc.edu">jlovelien3@my.wctc.edu</a>
+        <br> <a href="privacy.html">Privacy</a>
+    </footer>
+</div>
+</body>
+</html>
